@@ -19,7 +19,7 @@
 
 ### 1. 配置续期链接（必须）
 
-编辑仓库根目录下的 [main.py](./main.py)，找到22行 `RENEW_URLS` 列表，填入你的 Host2Play 服务器续期链接。
+编辑仓库根目录下的 [main.py](./main.py)，找到23行 `RENEW_URLS` 列表，填入你的 Host2Play 服务器续期链接。
 
 **链接格式：**
 ```
@@ -32,7 +32,7 @@ https://host2play.gratis/server/renew?i=你的服务器ID
 示例：
 ```python
 RENEW_URLS = [
-    "https://host2play.gratis/server/renew?i=2fe83af5-a106-404b-b49c-0dd3a35757f7",
+    "https://host2play.gratis/server/renew?i=6666666-6666-6666-6666-66666666666",
     "https://host2play.gratis/server/renew?i=另一个服务器ID",
 ]
 ```
